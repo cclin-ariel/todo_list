@@ -1,0 +1,13 @@
+.container {
+    width: auto;
+    height: 500px;
+}
+header {
+    width: auto;
+    height: 100px;
+}
+.refresh {
+    width: 10px;
+    height: 10px;
+
+}
