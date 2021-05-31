@@ -1,7 +1,11 @@
+body {
+    margin: 0;
+}
+
 .container{
-    width: 768px;
-    height: 800px;
+    width: 380px;
     margin: auto;
+    margin-top: 20px;
     background-color: rgb(207, 241, 239);
     border: solid rgb(202, 202, 240);
     border-radius: 2%;
@@ -9,15 +13,30 @@
 }
 
 header {
-    width: 100%;
-    height: 25%;
+    width: 380px;
+    height: 200px;
     display: block;
     background-color: rgb(202, 202, 240);
 }
 
+.clear {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    float: right;
+
+}
+
+#date {
+    clear: both;
+    position: relative;
+    bottom: 10px;
+}
+
 .content {
     width: 100%;
-    height: 75%;
+    height: 522px;
+    
 }
 
 .item {
@@ -26,5 +45,9 @@ header {
 }
 
 #addToDo {
-    
+    width: 100%;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    bottom: 10px;
 }
