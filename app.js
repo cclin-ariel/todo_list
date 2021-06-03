@@ -19,7 +19,6 @@ dateElement.innerHTML = today.toLocaleDateString("en-JP", options);
 
 //addToDo function
 
-
 var addToDo = (todo) => {
     const position = "beforeend";
     const item = `
@@ -31,4 +30,15 @@ var addToDo = (todo) => {
     list.insertAdjacentHTML(position, item);
 };
 
-addToDo("drink coffe");
+//add a item to the list by using the enter key
+
+document.addEventListener("keyup", evne =>{
+    if(event.keyCode == 13){
+        const todo = input.value;
+        //if todo isn't empty
+        if(todo){
+            addToDo(todo);
+        };
+        input.value = "";
+    }
+})
