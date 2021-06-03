@@ -39,7 +39,6 @@ header {
     position: relative;
     top: 120px;
     left: 20px;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-size: xx-large;
     
@@ -61,6 +60,8 @@ header {
     
 }
 
+/* checkIcon  <i class="far fa-check-circle"></i> */
+
 .text {
     display: inline-block;
     padding: 0 10px;
@@ -77,8 +78,6 @@ header {
 
 #addToDo {
     clear: both;
-    width: 380px;
-    height: 50px;
     display: inline;
     position: relative;
     left: 20px;
