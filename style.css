@@ -71,6 +71,10 @@ header {
 
 }
 
+.lineThrough {
+    text-decoration: line-through;
+}
+
 .flex-end {
     justify-content: flex-end;
 }
