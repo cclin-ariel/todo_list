@@ -12,7 +12,7 @@ const UNCHECK = "fa-circle";
 const LINETHROUGH = "lineThrough";
 
 //clear the localStorage
-
+ß
 clear.addEventListener("click", () =>{
     localStorage.clear();
     location.reload();
